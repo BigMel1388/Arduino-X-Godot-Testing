@@ -4,4 +4,7 @@
     <EnableDynamicLoading>true</EnableDynamicLoading>
     <RootNamespace>ArduinoXgodot</RootNamespace>
   </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="System.IO.Ports" Version="9.0.5" />
+  </ItemGroup>
 </Project>
