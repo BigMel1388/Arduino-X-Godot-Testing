@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=3 uid="uid://bv3kb7oje3rf8"]
+
+[ext_resource type="Script" uid="uid://bxxq80dleq6r7" path="res://arduino2.cs" id="1_romgu"]
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource("1_romgu")
+
+[node name="RichTextLabel" type="RichTextLabel" parent="."]
+offset_right = 920.0
+offset_bottom = 470.0
+theme_override_font_sizes/normal_font_size = 60
